@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F4C4711C-60F7-4E46-9BE0-8901BFDFA2A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spaceport", "src\Spaceport\Spaceport.csproj", "{7F3C19B9-0641-47DE-8663-830118E50501}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{ABB9ED0E-0292-483A-9F5C-356050328AD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spaceport.Tests", "test\Spaceport.Tests\Spaceport.Tests.csproj", "{6E107BDD-497E-4C5A-9FC7-5FBDA578C553}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F3C19B9-0641-47DE-8663-830118E50501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F3C19B9-0641-47DE-8663-830118E50501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F3C19B9-0641-47DE-8663-830118E50501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F3C19B9-0641-47DE-8663-830118E50501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E107BDD-497E-4C5A-9FC7-5FBDA578C553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E107BDD-497E-4C5A-9FC7-5FBDA578C553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E107BDD-497E-4C5A-9FC7-5FBDA578C553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E107BDD-497E-4C5A-9FC7-5FBDA578C553}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7F3C19B9-0641-47DE-8663-830118E50501} = {F4C4711C-60F7-4E46-9BE0-8901BFDFA2A9}
+		{6E107BDD-497E-4C5A-9FC7-5FBDA578C553} = {ABB9ED0E-0292-483A-9F5C-356050328AD3}
+	EndGlobalSection
+EndGlobal
